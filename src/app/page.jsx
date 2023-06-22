@@ -15,10 +15,6 @@ const projectsData = [
     src: "https://amayama.vercel.app/",
   },
   {
-    bg: "/img9.png",
-    src: "https://infinite-scroll-with-hover-picture-an.netlify.app/",
-  },
-  {
     bg: "/img10.png",
     src: "https://apple-webiste-clone.netlify.app/",
   },
@@ -33,6 +29,10 @@ const projectsData = [
   {
     bg: "/img7.png",
     src: "https://food-factory-01a2ae.netlify.app",
+  },
+  {
+    bg: "/img9.png",
+    src: "https://infinite-scroll-with-hover-picture-an.netlify.app/",
   },
   {
     bg: "/img8.png",
