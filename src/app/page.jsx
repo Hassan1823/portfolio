@@ -50,7 +50,7 @@ const projectsData = [
 
 export default function Home() {
   return (
-    <main className="w-full h-full px-24 bg-[#E3F4F4]">
+    <main className="w-full h-full lg:px-24 px-14 bg-[#E3F4F4]">
       <Image
         src="/snoopy.png"
         alt="logo"
