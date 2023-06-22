@@ -3,47 +3,47 @@ import Link from "next/link";
 
 const projectsData = [
   {
-    bg: "/../public/img1.png",
+    bg: "/img1.png",
     src: "https://neu-appliance.vercel.app/",
   },
   {
-    bg: "/../public/img2.png",
+    bg: "/img2.png",
     src: "https://nike-clone-store-kappa.vercel.app/",
   },
   {
-    bg: "/../public/img4.png",
+    bg: "/img4.png",
     src: "https://amayama.vercel.app/",
   },
   {
-    bg: "/../public/img9.png",
+    bg: "/img9.png",
     src: "https://infinite-scroll-with-hover-picture-an.netlify.app/",
   },
   {
-    bg: "/../public/img10.png",
+    bg: "/img10.png",
     src: "https://apple-webiste-clone.netlify.app/",
   },
   {
-    bg: "/../public/img11.png",
+    bg: "/img11.png",
     src: "https://snoopy-frontend-portfolio.netlify.app",
   },
   {
-    bg: "/../public/img5.png",
+    bg: "/img5.png",
     src: "https://tiny-squirrel-88bdc9.netlify.app",
   },
   {
-    bg: "/../public/img7.png",
+    bg: "/img7.png",
     src: "https://food-factory-01a2ae.netlify.app",
   },
   {
-    bg: "/../public/img8.png",
+    bg: "/img8.png",
     src: "https://spotify-clone-2b18c7.netlify.app",
   },
   {
-    bg: "/../public/img6.png",
+    bg: "/img6.png",
     src: "https://cozy-shortbread-d79368.netlify.app",
   },
   {
-    bg: "/../public/img3.png",
+    bg: "/img3.png",
     src: "https://tech-mart-kappa.vercel.app/",
   },
 ];
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <main className="w-full h-full px-24 bg-[#E3F4F4]">
       <Image
-        src="/../public/snoopy.png"
+        src="/snoopy.png"
         alt="logo"
         width={150}
         height={100}
