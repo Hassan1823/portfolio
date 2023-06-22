@@ -1,21 +1,87 @@
 import Image from "next/image";
-import FrontEnd from "./components/FrontEnd";
-import DP from "./components/DP";
-import Quote from "./components/Quote";
+import Link from "next/link";
+
+const projectsData = [
+  {
+    bg: "/../public/img1.png",
+    src: "https://neu-appliance.vercel.app/",
+  },
+  {
+    bg: "/../public/img2.png",
+    src: "https://nike-clone-store-kappa.vercel.app/",
+  },
+  {
+    bg: "/../public/img4.png",
+    src: "https://amayama.vercel.app/",
+  },
+  {
+    bg: "/../public/img9.png",
+    src: "https://infinite-scroll-with-hover-picture-an.netlify.app/",
+  },
+  {
+    bg: "/../public/img10.png",
+    src: "https://apple-webiste-clone.netlify.app/",
+  },
+  {
+    bg: "/../public/img11.png",
+    src: "https://snoopy-frontend-portfolio.netlify.app",
+  },
+  {
+    bg: "/../public/img5.png",
+    src: "https://tiny-squirrel-88bdc9.netlify.app",
+  },
+  {
+    bg: "/../public/img7.png",
+    src: "https://food-factory-01a2ae.netlify.app",
+  },
+  {
+    bg: "/../public/img8.png",
+    src: "https://spotify-clone-2b18c7.netlify.app",
+  },
+  {
+    bg: "/../public/img6.png",
+    src: "https://cozy-shortbread-d79368.netlify.app",
+  },
+  {
+    bg: "/../public/img3.png",
+    src: "https://tech-mart-kappa.vercel.app/",
+  },
+];
 
 export default function Home() {
   return (
-    <>
-      {/* Main Container */}
-      <div className="w-full h-screen flex flex-wrap justify-center items-center">
-        <div className="lg:w-1/2 md:w-10/12 w-[90%] h-full border border-opacity-20 rounded-md shadow-lg flex flex-wrap lg:justify-between justify-start">
-          <div className="w-full h-auto flex md:flex-row flex-col md:justify-around justify-center items-center gap-8">
-            <FrontEnd />
-            <DP />
-          </div>
-          <Quote />
-        </div>
+    <main className="w-full h-full px-24 bg-[#E3F4F4]">
+      <Image
+        src="/../public/snoopy.png"
+        alt="logo"
+        width={150}
+        height={100}
+        className="mx-auto"
+      />
+
+      <span className="text-2xl font-black border-b-2 border-black">
+        Portfolio :
+      </span>
+      <div className="w-full h-auto py-10 flex flex-wrap gap-8 justify-center items-center mx-auto">
+        {/* card */}
+        {projectsData?.map((data, index) => {
+          return (
+            <Link
+              key={index}
+              href={data.src}
+              className="lg:w-96 lg:h-60 w-full h-auto hover:shadow-2xl rounded-md flex items-center hover:scale-105 hover:duration-300"
+            >
+              <Image
+                src={data.bg}
+                alt="bg"
+                width={500}
+                height={300}
+                className="object-cover rounded-md"
+              />
+            </Link>
+          );
+        })}
       </div>
-    </>
+    </main>
   );
 }
