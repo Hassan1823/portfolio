@@ -15,6 +15,10 @@ const projectsData = [
     src: "https://updatedamayama.vercel.app/",
   },
   {
+    bg: "/dashboard.png",
+    src: "https://amayama-new-dashboard.vercel.app/",
+  },
+  {
     bg: "/img10.png",
     src: "https://apple-webiste-clone.netlify.app/",
   },
