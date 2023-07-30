@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
     bg: "/img4.png",
-    src: "https://amayama.vercel.app/",
+    src: "https://updatedamayama.vercel.app/",
   },
   {
     bg: "/img10.png",
