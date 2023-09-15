@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
     bg: "/img4.png",
-    src: "https://updatedamayama.vercel.app/",
+    src: "https://car-parts-delta.vercel.app/",
   },
   {
     bg: "/dashboard.png",
